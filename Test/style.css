@@ -1,0 +1,38 @@
+.checkbox {
+    visibility: hidden;
+  }
+  .checkbox-group {
+    position: relative;
+    width: 28px;
+    height: 14px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    left: 100px;
+  }
+  
+  .checkbox-label {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #828282;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s ease;
+    
+  }
+  
+  .checkbox:checked + .checkbox-label {
+    left: 14px;
+    background-color: #F2994A;
+  }
+
+  .checkbox-group:active{
+    border: 1px solid #F2994A;
+
+  }
+
+  .checkbox-lab:active{
+    color: #F2994A;
+  }
