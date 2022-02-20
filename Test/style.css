@@ -8,10 +8,8 @@ body {
 }
 
 .all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 1770px;
+    margin: auto;
     padding: 130px 75px 226px 75px;
 }
 
@@ -207,4 +205,5 @@ button:hover {
     width: 431px;
     height: 70px;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
