@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 @import "reset.css";
-
 body {
     font-family: Inter;
     font-style: normal;
@@ -12,7 +10,7 @@ body {
     align-items: center;
 }
 
-.all{
+.all {
     margin-left: 75px;
 }
 
@@ -192,7 +190,7 @@ button:hover {
     background: #F2994A;
     color: #FFFFFF;
     border-color: #F2994A;
-    border: none; 
+    border: none;
     outline: none;
     appearance: none;
 }
