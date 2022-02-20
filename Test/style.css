@@ -5,12 +5,13 @@ body {
     font-style: normal;
     background-color: #FFFFFF;
     color: #333333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 130px 75px 226px 75px;
 }
 
